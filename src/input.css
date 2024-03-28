@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family:'RageItalic';
+        font-style: italic;
+        font-weight: 400;
+        src: url(../fonts/RageItalic.ttf) format('ttf');
+    }
+
+    /* @font-face {
+        font-family:'Recoleta';
+        src:url(../public/fonts/RecoletaAlt-Black.ttf) format('ttf'); 
+    } */
+}
